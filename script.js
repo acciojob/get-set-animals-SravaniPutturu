@@ -4,7 +4,7 @@ class Animal {
 		this.species = species;
 	}
 	get species(){
-		return this._species
+		return this.species
 	}
 	makeSound(){
 		console.log("The " + this._species + " makes a sound.")
